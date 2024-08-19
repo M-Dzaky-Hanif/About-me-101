@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(246, 255, 255);
+    margin: 0px;
+    background-image: url(background2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.odd{
+    color: rgb(26, 51, 72);
+}
+.even{
+    color: rgb(18, 38, 55);
+}
+.box{
+    border: 0px;
+    margin: 0px;
+    border: 1px solid;
+    height: 330px;
+    overflow: auto;
+}
+.box2{
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    max-height: 700px;
+    min-height: 500px;
+}
+img{
+    margin: 15px;
+}
+header{
+    position: sticky;
+    top: 0px;
+}
+
+@font-face{
+    src: url(Roboto-Medium.ttf);
+    font-family: Roboto-Medium;   
+}
+@font-face{
+    src: url(NewAmsterdam-Regular.ttf);
+    font-family: NewAmsterdam-Regular;   
+}
+@font-face{
+    src: url(RobotoSlab-SemiBold.ttf);
+    font-family: RobotoSlab-SemiBold;   
+}
+@font-face{
+    src: url(RobotoCondensed-VariableFont_wght.ttf);
+    font-family: RobotoCondensed;   
+}
+
+h1{
+    font-family: NewAmsterdam-Regular;
+    margin: 15px;
+}
+h2{
+    font-family: RobotoCondensed;
+    margin: 15px;
+}
+h3{
+    font-family: RobotoSlab-SemiBold;
+    margin: 15px;
+}
+h4{
+    font-family: RobotoSlab-SemiBold;
+    margin: 15px;
+}
+p{
+    font-family: Roboto-Medium;
+    font-size: 0.9em;
+    margin: 15px;
+}
+a{
+    font-family: RobotoCondensed;
+    font-weight: bold;
+    margin: 15px;
+}
+button{
+    font-family: Roboto-Medium;
+    font-size: 0.9em;
+    margin: 5px;
+}
+li{
+    font-family: Roboto-Medium;
+    font-size: 0.9em;
+    
+}
